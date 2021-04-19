@@ -5,16 +5,18 @@
     border: chocolate;
 }
 
-span#first {
+.box {
+    display: inline-block;
     width: 50px;
     height: 50px;
+}
+
+#first {
     background-color: black;
 }
 
-span#second {
-    width: 50px;
-    height: 50px;
-    background-color: black;
+#second {
+    background-color: red;
 }
 
 .prompt {
@@ -23,4 +25,8 @@ span#second {
 
 .button {
     background-color: coral;
+}
+
+span {
+    font-size: 40px;
 }
