@@ -1,0 +1,26 @@
+#container {
+    background-color: burlywood;
+    width: 300px;
+    height: 200px;
+    border: chocolate;
+}
+
+span#first {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+span#second {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.prompt {
+    background-color: chartreuse;
+}
+
+.button {
+    background-color: coral;
+}
