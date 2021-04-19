@@ -62,10 +62,12 @@ let performance = "stellar"
 let salary = 10000
 const goodBonus = 1000
 const stellarBonus = 3000
-if (salary + goodBonus > salary + stellarBonus) {
-    salary += goodBonus
-} else {
+if(performance === "stellar"){
     salary += stellarBonus
+    console.log("You've received a stellar bonus! Current amount: "+ salary);
+} else{
+    salary += goodBonus
+    console.log("You've received a good bonus! Current amount: "+ salary);
 }
 
 console.log(salary);
@@ -95,4 +97,20 @@ d = a + (b * c)
 d++
 b += 2
 console.log(a, b, c, d);*/
-/*Exercise 6*/
+/*Exercise 6
+const gender = null
+let profession = "business"
+
+if (gender == null) {
+    let genderInput = prompt("No gender was specified. Please provide a gender")
+    if (genderInput == "man" || genderInput == "woman") {
+        profession = profession + genderInput
+        console.log("user said gender is: " + genderInput + ". Therefore, the preofession is: " + profession)
+    } else {
+        console.log("invalid gender: " + genderInput)
+    }
+} else {
+    profession = profession + gender
+    conssole.log(profession)
+}*/
+/*Exercise 7*/
