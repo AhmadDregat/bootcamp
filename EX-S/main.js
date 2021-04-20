@@ -114,3 +114,22 @@ if (gender == null) {
     conssole.log(profession)
 }*/
 /*Exercise 7*/
+let boughtTesla = true
+const yearOfTeslaPurchase = 2014
+let isUSCitizen = true
+let currentYear = 2018
+
+if (boughtTesla) {
+    if (isUSCitizen) {
+        let yearsSincePurchase = currentYear - yearOfTeslaPurchase
+        if (yearsSincePurchase > 4 || yearsSincePurchase == 4) {
+            console.log("You previously bought a Tesla car " + yearsSincePurchase + " years ago. Would you like an upgrade?")
+        } else {
+            console.log("Ypu previously bought a Tesla car " + yearsSincePurchase + " years ago. Are you satisfied with the car?")
+        }
+    } else {
+        console.log("Would you like to move to the US?")
+    }
+} else {
+    console.log("Are you interested in buying a Tesla car?")
+}
