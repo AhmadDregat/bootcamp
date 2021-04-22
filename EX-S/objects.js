@@ -14,7 +14,7 @@ if (p1.age == p2.age && p1.city == p2.city) {
 } else {
     console.log("Jill wanted to date Robert, but couldn’t");
 }*/
-/*EX2*/
+/*EX2
 let p1 = {
     name: "p1",
     age: "23",
@@ -44,11 +44,11 @@ let p4 = {
 let myList2 = [p3, p4]
 myList.push(myList2)
 console.log(myList);*/
-/*ex4*/
+/*
 let library = []
 let book = {
     title: "dregatpro",
     author: "ahmad"
 }
 library.push(book)
-console.log(library);
+console.log(library);*/
